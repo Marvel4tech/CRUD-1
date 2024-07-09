@@ -1,6 +1,29 @@
-
+import { useEffect, useState } from "react";
+import api from '../api/users'
 
 const Home = () => {
+    const [users, setUsers] = useState([])
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try{
+                const response = await api.get('/users')
+                setUsers(response.data)
+                console.log(users)
+            }catch (err) {
+                if (err.response){
+                    console.log(err.response.data)
+                    console.log(err.response.status)
+                    console.log(err.response.headers)
+                } else {
+                    console.log(`error: ${err.message}`)
+                }
+            }
+        }
+
+        fetchData()
+    }, [])
+
   return (
     <div className=' w-full h-full flex-col px-10 py-8'>
         <h1 className=" text-black text-3xl font-semibold font-sans">Home Page</h1>

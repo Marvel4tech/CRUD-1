@@ -1,0 +1,73 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "name": "Leanne Graham",
+            "username": "Bret",
+            "email": "Sincere@april.biz",
+            "address": {
+                "street": "Kulas Light",
+                "suite": "Apt. 556",
+                "city": "Gwenborough",
+                "zipcode": "92998-3874",
+                "geo": {
+                    "lat": "-37.3159",
+                    "lng": "81.1496"
+                }
+            },
+            "phone": "1-770-736-8031 x56442",
+            "website": "hildegard.org",
+            "company": {
+                "name": "Romaguera-Crona",
+                "catchphrase": "Multi-layered client-server neural-net",
+                "bs": "harness real-time e-markets"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Rishi Sunak",
+            "username": "Rnaky",
+            "email": "honest@april.biz",
+            "address": {
+                "street": "Gren Lein",
+                "suite": "Apt. 406",
+                "city": "Le vegas",
+                "zipcode": "10998-3574",
+                "geo": {
+                    "lat": "-40.3159",
+                    "lng": "01.1496"
+                }
+            },
+            "phone": "2-440-736-8031 x56442",
+            "website": "bhildegard.org",
+            "company": {
+                "name": "Sunakyaguera-Crona",
+                "catchphrase": "Fulti-layered client-server neural-net",
+                "bs": "bhrness real-time onlone-markets"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Seir Kharmar",
+            "username": "Seir",
+            "email": "Lovely@april.biz",
+            "address": {
+                "street": "Bahama",
+                "suite": "Apt. 345",
+                "city": "Mumbai",
+                "zipcode": "11998-3874",
+                "geo": {
+                    "lat": "-23.3159",
+                    "lng": "78.1496"
+                }
+            },
+            "phone": "5-870-736-8031 x56442",
+            "website": "serikharna.org",
+            "company": {
+                "name": "Gloroma-Crona",
+                "catchphrase": "2xMulti-layered client-server neural-net",
+                "bs": "beauty real-time e-markets"
+            }
+        }
+    ]
+}
